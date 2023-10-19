@@ -1,0 +1,106 @@
+
+*,*::after,*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+  background: url(background.jpg);
+}
+.card {
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+ }
+.titre{
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  font-size: 43px;
+  font-style: small;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.titre span{
+  color: orange;
+}
+form {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+  color: white;
+  background-color: orange;
+  width:73px;
+  outline: none;
+  border: none;
+  padding: 12px;
+}
+input {
+  background: transparent;
+  width: 30%;
+  padding: 11px;
+  border: 1px solid orange;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input:hover{
+  width:33%;
+  transition: 1.5s;
+}
+input:focus{
+  border: 1px solid orange;
+}
+.cities {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;    
+}
+.city {
+  background-color: rgb(238, 252, 155);
+  padding: 20px;
+  margin: 11px;;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 20px;
+}
+.city:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+  transition: all 0.3s;
+
+}
+ p {
+  margin-top: 9px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+  
+}
+ .city-temp {
+  font-size: 4rem;
+  margin-top: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 128, 0);
+}
+ .city sup {
+  font-size: 2rem;
+  color: rgb(248, 146, 44);
+}
+ .city-name sup {
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+  padding:  2px 4px ;
+  font-size: medium;
+  background-color: dodgerblue;
+  border-radius: 9px;
+}
